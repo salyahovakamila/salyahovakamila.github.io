@@ -1,0 +1,37 @@
+site_name: Портфолио Лабораторных Работ
+site_author: Саляхова Камила
+site_description: Моё портфолио с лабораторными работами по курсу
+
+# Тема оформления
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+
+# Навигация (меню сайта)
+nav:
+  - Главная: index.md
+  - Об авторе: about.md
+  - Лабораторные работы:
+    - Лабораторная 1: labs/lab1.md
+    - Лабораторная 2: labs/lab2.md
+    - Лабораторная 3: labs/lab3.md
+
+# Дополнительные настройки
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
