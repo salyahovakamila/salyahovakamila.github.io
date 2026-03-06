@@ -14,10 +14,6 @@
 ##  Выполнение
 
 ### Шаг 1: Создание репозитория
-Репозиторий создан: `твой-никнейм/твой-никнейм.github.io`
+Репозиторий создан: `salyahovakamila/salyahovakamila.github.io`
 
 ### Шаг 2: Установка зависимостей
-```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install mkdocs mkdocs-material
