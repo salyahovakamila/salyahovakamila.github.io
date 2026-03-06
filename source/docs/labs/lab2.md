@@ -21,6 +21,17 @@
 
 ## Выполнение
 
+============================= test session starts =============================
+collected 16 items
+
+test.py::test_create_vector PASSED
+test.py::test_create_matrix PASSED
+...
+test.py::test_plot_line PASSED
+
+============================== 16 passed in 1.23s =============================
+
+
 ## Выводы
 В ходе работы я:
 Освоила создание и манипуляцию массивами NumPy
