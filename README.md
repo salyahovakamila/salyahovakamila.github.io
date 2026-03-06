@@ -1,6 +1,6 @@
 # Портфолио лабораторных работ
 
-🔗 Сайт: [https://salyahovakamila.github.io](https://salyahovakamila.github.io)
+Сайт: [https://salyahovakamila.github.io](https://salyahovakamila.github.io)
 
 ## Выбор темы оформления
 
@@ -13,5 +13,5 @@
 4. **Поддержка кода** — подсветка синтаксиса для примеров
 
 
-📚 Документация темы: [squidfunk.github.io/mkdocs-material](https://squidfunk.github.io/mkdocs-material/)
+Документация темы: [squidfunk.github.io/mkdocs-material](https://squidfunk.github.io/mkdocs-material/)
 
