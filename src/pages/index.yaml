@@ -72,6 +72,15 @@ navigation:
             counters:
               include:
                 - '97958134'
+      - type: "button"
+        url: "https://salyahovakamila.github.io"
+        text: "Сайт Саляховой Камилы"
+        theme: 'monochrome'
+        analyticsEvents:
+          - name: 'SOURCECRAFT-REMOTE_URL_CLICK'
+            counters:
+              include:
+                - '97958134'
 
 animated: false
 background:
