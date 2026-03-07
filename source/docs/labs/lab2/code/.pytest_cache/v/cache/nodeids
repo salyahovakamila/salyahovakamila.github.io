@@ -1,0 +1,19 @@
+[
+  "test.py::test_create_matrix",
+  "test.py::test_create_vector",
+  "test.py::test_dot_product",
+  "test.py::test_elementwise_multiply",
+  "test.py::test_load_dataset",
+  "test.py::test_matrix_determinant",
+  "test.py::test_matrix_inverse",
+  "test.py::test_matrix_multiply",
+  "test.py::test_normalization",
+  "test.py::test_plot_heatmap",
+  "test.py::test_plot_histogram",
+  "test.py::test_plot_line",
+  "test.py::test_reshape_vector",
+  "test.py::test_scalar_multiply",
+  "test.py::test_solve_linear_system",
+  "test.py::test_statistical_analysis",
+  "test.py::test_vector_add"
+]
