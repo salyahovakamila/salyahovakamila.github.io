@@ -75,7 +75,7 @@ navigation:
       - type: "button"
         url: "https://salyahovakamila.github.io"
         text: "Сайт Саляховой Камилы"
-        theme: 'monochrome'
+        theme: 'normal'
         analyticsEvents:
           - name: 'SOURCECRAFT-REMOTE_URL_CLICK'
             counters:
