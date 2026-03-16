@@ -26,7 +26,7 @@
 ![Гистограмма](labs/lab2/code/plots/histogram.png)
 
 ### Тепловая карта корреляции предметов
-![Heatmap](labs/lab2/code/plots/heatmap.png)
+![Heatmap](labs/lab2/code/plots/heatmap.png) 
 
 ### График: студент → оценка
 ![Line plot](labs/lab2/code/plots/line.png)
