@@ -23,13 +23,13 @@
 ## Визуализация
 
 ### Гистограмма оценок по математике
-![Гистограмма](labs/lab2/code/plots/histogram.png)
+![Гистограмма](lab2/plots/histogram.png)
 
 ### Тепловая карта корреляции предметов
-![Heatmap](labs/lab2/code/plots/heatmap.png) 
+![Heatmap](lab2/plots/heatmap.png)
 
 ### График: студент → оценка
-![Line plot](labs/lab2/code/plots/line.png)
+![Line plot](lab2/plots/line.png)
 
 
  Выводы
