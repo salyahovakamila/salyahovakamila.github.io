@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Портфолио лабораторных работ
 
 Сайт: [https://salyahovakamila.github.io](https://salyahovakamila.github.io)
@@ -91,5 +91,5 @@ SourceCraft Sites может работать с любыми статическ
    ```
 
 3. Открыть `site/index.html` в браузере.
->>>>>>> 1accaf1fca17c3d4f6612960c420281f14e12b67
+
 
