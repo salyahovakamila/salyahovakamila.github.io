@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 venv/
 numpy_env/
@@ -22,3 +23,6 @@ Thumbs.db
 
 *.log
 .tmp
+=======
+node_modules
+>>>>>>> 
