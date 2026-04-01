@@ -1,3 +1,16 @@
-site:
-  root: site
-  ref: release
+# Конфигурация для публикации MkDocs сайта
+sites:
+  - name: site1
+    # Папка с готовым сайтом (собранным MkDocs)
+    root: docs/
+    # Команда сборки (пустая, т.к. собираем локально)
+    build_command: ""
+    # Ветка
+    branch: main
+    # Публикация включена
+    publish:
+      enabled: true
+      # Путь к сайту
+      path: /site1
+    # Индексный файл
+    index: index.html
