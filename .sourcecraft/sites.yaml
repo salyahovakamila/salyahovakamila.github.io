@@ -1,4 +1,4 @@
-# Конфигурация для публикации MkDocs сайта
+# Конфигурация публикации для MkDocs сайта
 sites:
   - name: site1
     # Папка с готовым сайтом (собранным MkDocs)
@@ -7,10 +7,8 @@ sites:
     build_command: ""
     # Ветка
     branch: main
-    # Публикация включена
+    # Публикация
     publish:
       enabled: true
-      # Путь к сайту
-      path: /site1
     # Индексный файл
     index: index.html
