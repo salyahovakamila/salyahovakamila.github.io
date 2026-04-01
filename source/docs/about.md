@@ -1,8 +1,7 @@
 # Об авторе
 
 ## Привет! Меня зовут Камила Саляхова 
-<img src="authorfoto.jpg" alt="Myphoto" width="300" height="400">
-
+<img src="/authorfoto.jpg" alt="Myphoto" width="300" height="400">
 Я студентка 1-го курса ИТМО, учусь на программе "Нейротехнологии и программирование"
 
 Контакты:
