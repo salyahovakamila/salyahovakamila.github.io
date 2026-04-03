@@ -1,14 +1,7 @@
 # Конфигурация публикации для MkDocs сайта
-sites:
-  - name: site1
-    # Папка с готовым сайтом
-    root: docs/
-    # Ветка
-    branch: main
-    # Команда сборки (пустая, т.к. собираем локально)
-    build_command: pip install -r requirements.txt && mkdocs build
-    # Публикация включена
-    publish:
-      enabled: true
-    # Индексный файл
-    index: index.html
+site:
+  # Папка с готовым сайтом
+  root: docs/
+  # Ветка
+  ref: main
+  # Публикация включена
