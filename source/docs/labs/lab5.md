@@ -9,7 +9,7 @@
 - 21 переменная (признаки)
 - Период: май 2014 - май 2015
 
-# Моя работа в [коллабе](https://colab.research.google.com/drive/1LRIoC1BbeMT9DHjCdw5VAkrMHLMJzg0e?usp=sharing#scrollTo=xsG3XS6PG4Ag)
+# Моя работа в [коллабе](https://colab.research.google.com/drive/1SVq_pHfqDVRhdEU-TSLMRqfGD4BiE_OJ)
 ##  Выполненные задания
 
 ### 1. Загрузка и предобработка данных
