@@ -10,13 +10,13 @@ workflows:
       - name: build-site
         cubes:
           - name: install-deps
-            image: node:22-slim
+            image: python:3.11-slim
             script:
-              - npm ci
+              - pip install
           - name: build-site
-            image: node:22-slim
+            image: python:3.11-slim
             script:
-              - npm run build
+              - mkdocs build
           - name: publish-site
             script:
               - git checkout -b release
