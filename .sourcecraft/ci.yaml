@@ -7,15 +7,12 @@ on:
 workflows:
   build-site:
     tasks:
-      - name: build-site
+      - name: build-and-deploy
         cubes:
-          - name: install-deps
+          - name: build-mkdocs
             image: python:3.11-slim
             script:
               - pip install -r requirements.txt
-          - name: build-site
-            image: python:3.11-slim
-            script:
               - mkdocs build
           - name: publish-site
             script:
