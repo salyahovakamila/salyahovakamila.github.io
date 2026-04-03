@@ -2,11 +2,11 @@
 sites:
   - name: site1
     # Папка с готовым сайтом
-    root: docs/
+    root: site/
     # Ветка
     branch: main
     # Команда сборки (пустая, т.к. собираем локально)
-    build_command: ""
+    build_command: pip install -r requirements.txt && mkdocs build
     # Публикация включена
     publish:
       enabled: true
