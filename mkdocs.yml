@@ -12,7 +12,7 @@ theme:
     - navigation.tabs
     - navigation.sections
     - toc.integrate
-
+docs_dir: source/docs]куко
 # Навигация (меню сайта)
 nav:
   - Главная: index.md
@@ -24,6 +24,8 @@ nav:
     - Лабораторная 4: labs/lab4.md
     - Лабораторная 5: labs/lab5.md
     - Лабораторная 6: labs/lab6.md
+
+
 
 # Дополнительные настройки
 markdown_extensions:
