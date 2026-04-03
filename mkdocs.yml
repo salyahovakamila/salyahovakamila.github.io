@@ -12,7 +12,7 @@ theme:
     - navigation.tabs
     - navigation.sections
     - toc.integrate
-docs_dir: source/docs]куко
+docs_dir: source/docs
 # Навигация (меню сайта)
 nav:
   - Главная: index.md
