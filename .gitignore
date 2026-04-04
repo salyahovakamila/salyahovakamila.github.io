@@ -1,28 +1,22 @@
-<<<<<<< HEAD
-
-venv/
+# Python виртуальные окружения
 numpy_env/
+venv/
 env/
-
-
+.env/
 __pycache__/
 *.pyc
 .pytest_cache/
-*.pyo
-*.pyd
 
+# Скомпилированные файлы
+*.so
+*.o
+*.dylib
 
+# IDE
 .idea/
-*.iml
 .vscode/
+*.swp
+*.swo
 
-
+# macOS
 .DS_Store
-Thumbs.db
-
-
-*.log
-.tmp
-=======
-node_modules
->>>>>>> 
