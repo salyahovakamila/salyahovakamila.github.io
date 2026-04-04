@@ -13,10 +13,10 @@
       
       
       
-        <link rel="prev" href="../lab4/">
+        <link rel="prev" href="../lab2/">
       
       
-        <link rel="next" href="../lab6/">
+        <link rel="next" href="../lab4/">
       
       
         
@@ -27,7 +27,7 @@
     
     
       
-        <title>Лабораторная 5 - Портфолио Лабораторных Работ</title>
+        <title>Лабораторная 3 - Портфолио Лабораторных Работ</title>
       
     
     
@@ -75,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#no3" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -105,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Лабораторная 5
+              Лабораторная 3
             
           </span>
         </div>
@@ -438,10 +443,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../lab3/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Лабораторная 3
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -457,6 +489,70 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cicd-sourcecraft" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Тема: CI/CD для статического сайта в SourceCraft
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mkdocs-sourcecraft" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Цель работы: Реализовать сценарий автоматического развёртывания статического сайта, построенного на движке MkDocs, с использованием платформы SourceCraft.
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Задание
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Выполнение
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -494,17 +590,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../lab5/" class="md-nav__link">
         
   
   
@@ -520,7 +609,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -578,9 +666,65 @@
 
 
 
-  <h1>Лабораторная 5</h1>
-
-
+<h1 id="no3">Лабораторная работа №3</h1>
+<h2 id="cicd-sourcecraft">Тема: CI/CD для статического сайта в SourceCraft</h2>
+<h2 id="mkdocs-sourcecraft">Цель работы: Реализовать сценарий автоматического развёртывания статического сайта, построенного на движке MkDocs, с использованием платформы SourceCraft.</h2>
+<h2 id="_1">Задание</h2>
+<ul>
+<li>Реализовать сценарий автоматического развёртывания статического сайта на MkDocs с использованием SourceCraft</li>
+<li>Реализовать сценарий автоматического развёртывания этого же сайта с помощью GitHub Actions</li>
+<li>В рамках одного локального репозитория добавить 2 удалённых репозитория (SourceCraft и GitHub)</li>
+<li>Продемонстрировать результаты выполнения</li>
+</ul>
+<h2 id="_2">Выполнение</h2>
+<h1 id="1">Шаг 1: Регистрация и создание организации</h1>
+<p>1) Авторизовалась на https://sourcecraft.dev через Яндекс-аккаунт
+2) Создала публичную организацию: salyahova-k
+3) Создала пустой публичный репозиторий: portfolio</p>
+<h1 id="2-pat">Шаг 2: Генерация персонального токена (PAT)</h1>
+<p>1) Перешла в Настройки → Personal Access Tokens
+2) Создала новый токен с параметрами
+3) Скопировала токен для использования в Git</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1"># Добавление удалённого репозитория SourceCraft</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>git<span class="w"> </span>remote<span class="w"> </span>add<span class="w"> </span>sourcecraft<span class="w"> </span>https://salyahova-k:&lt;TOKEN&gt;@git.sourcecraft.dev/salyahova-k/portfolio.git
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="c1"># Проверка</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>git<span class="w"> </span>remote<span class="w"> </span>-v
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="c1"># Результат:</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="c1"># origin        https://github.com/salyahovakamila/salyahovakamila.github.io.git</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="c1"># sourcecraft   https://git.sourcecraft.dev/salyahova-k/portfolio.git</span>
+</code></pre></div>
+<h1 id="requirementstxt">requirements.txt</h1>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>mkdocs&gt;=1.5.0
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>mkdocs-material&gt;=9.0.0
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>pymdown-extensions&gt;=10.0
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>pygments&gt;=2.0
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>markdown&gt;=3.3
+</code></pre></div>
+<h1 id="_3">Отправка кода в репозитории</h1>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c1"># Добавление файлов</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>git<span class="w"> </span>add<span class="w"> </span>.
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;Initial commit: MkDocs site with CI/CD&quot;</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="c1"># Отправка в оба репозитория</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>main<span class="w">        </span><span class="c1"># GitHub</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>git<span class="w"> </span>push<span class="w"> </span>sourcecraft<span class="w"> </span>main<span class="w">   </span><span class="c1"># SourceCraft</span>
+</code></pre></div>
+<h1 id="_4">Проблемы и их решение</h1>
+<h1 id="error-you-must-give-at-least-one-requirement-to-install">ERROR: You must give at least one requirement to install</h1>
+<ul>
+<li>Создан файл requirements.txt с зависимостями</li>
+<li>Исправлена команда в CI/CD: pip install → pip install -r requirements.txt</li>
+</ul>
+<h2 id="_5">Выводы</h2>
+<h3 id="remote-">Работа с несколькими remote-репозиториями в одном локальном проекте</h3>
+<ul>
+<li>Создание и использование Personal Access Tokens (PAT)</li>
+<li>Настройка CI/CD пайплайнов в SourceCraft</li>
+<li>Создание GitHub Actions workflows</li>
+<li>Конфигурация MkDocs для статических сайтов</li>
+<li>Автоматический деплой статических сайтов</li>
+</ul>
 
 
 

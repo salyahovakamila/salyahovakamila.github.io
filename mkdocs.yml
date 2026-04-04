@@ -2,6 +2,9 @@ site_name: Портфолио Лабораторных Работ
 site_author: Саляхова Камила
 site_description: Моё портфолио с лабораторными работами по курсу Python
 
+docs_dir: source/docs
+site_dir: site
+
 # Тема оформления
 theme:
   name: material
@@ -12,7 +15,7 @@ theme:
     - navigation.tabs
     - navigation.sections
     - toc.integrate
-docs_dir: source/docs
+
 # Навигация (меню сайта)
 nav:
   - Главная: index.md

@@ -1,7 +1,8 @@
 # Конфигурация публикации для MkDocs сайта
-site:
-  # Папка с готовым сайтом
-  root: docs/
-  # Ветка
-  ref: main
-  # Публикация включена
+sites:
+  - name: portfolio
+    root: site/
+    branch: main
+    publish:
+      enabled: true
+    index: index.html
