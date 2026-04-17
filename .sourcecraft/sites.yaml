@@ -1,8 +1,3 @@
-# Конфигурация публикации для MkDocs сайта
-sites:
-  - name: portfolio
-    root: site/
-    branch: main
-    publish:
-      enabled: true
-    index: index.html
+site:
+  root: "site/"
+  ref: "main"
