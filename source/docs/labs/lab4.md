@@ -9,7 +9,7 @@
 - 10 признаков (возраст, доход, долг, кредитная история и др.)
 - Целевая переменная: SeriousDlqin2yrs (0 — нет дефолта, 1 — дефолт)
 - Дисбаланс классов: ~93.7% хороших заёмщиков, ~6.3% дефолтов
-# Моя работа в [коллабе](https://colab.research.google.com/drive/1QlRv16JPcqjGsGx6q_1yq-AGWEQKD_Vy)
+# Моя работа в [коллабе](https://colab.research.google.com/drive/1xLe7UkE3E2e6Go2Jn6UrUtN6lzHavRoq?usp=sharing)
 ##  Выполненные задания
 
 ### 1. Загрузка и предобработка данных
